@@ -1,0 +1,23 @@
+---
+title: "Random Randomness"
+image: cover.jpg
+# listing:
+#     contents: random-files/*.md
+#     # type: table
+#     # sort: "filename asc"
+#     # field-links: false
+---
+
+This book is all about random randomness I found. Not organised in my brain yet. Dump everything here for the ease of reference.
+
+```{r}
+#| echo: false
+#| results: asis
+
+files <- sort(list.files("random-files/", pattern = "\\.md$", full.names = TRUE))
+for (f in files) {
+  name <- basename(f)
+  display <- sub("\\.md$", "", name)
+  cat(sprintf("- [%s](%s)\n", display, f))
+}
+```
