@@ -1,0 +1,145 @@
+{
+  "version": 1,
+  "locale": "zh_CN",
+  "platform": "4.5.2",
+  "metadata": {
+    "appmode": "quarto-static",
+    "primary_rmd": "index.qmd",
+    "primary_html": null,
+    "content_category": "site",
+    "has_parameters": false
+  },
+  "environment": {
+    "r": {
+      "requires": "~=4.5.0"
+    }
+  },
+  "quarto": {
+    "version": "1.9.36",
+    "engines": ["knitr", "markdown"]
+  },
+  "packages": null,
+  "files": {
+    "_quarto.yml": {
+      "checksum": "ef942c93b2f4881e53b29e9ad1491a51"
+    },
+    "_site/index.html": {
+      "checksum": "4bc1ddba81e20e7391f428bf0779efa3"
+    },
+    "_site/random-files/Bulk-Add-Markdown-Files-to-Quarto-Book.html": {
+      "checksum": "0679816e68cfffb2252acd8c4b5793b5"
+    },
+    "_site/random-files/Git-Push-Error-and-Solution.html": {
+      "checksum": "2018d3ce3ae5dc0048698c1be8d57447"
+    },
+    "_site/random-files/Python-TOML与TML文件解析.html": {
+      "checksum": "e79abdbf08f4eb0dfbd7efc97d18b498"
+    },
+    "_site/random-files/RAG与Agent构建智能教学系统.html": {
+      "checksum": "35519c0c8014e2a6a5344c45b33c4aed"
+    },
+    "_site/random-files/TestThat与PyTest对比分析.html": {
+      "checksum": "636274c66d02f138ecdfdea13853999a"
+    },
+    "_site/random-files/雅安茶厂公司及其代表产品介绍.html": {
+      "checksum": "22d301d1cbf4bb1dd8d3ec8a332228ac"
+    },
+    "_site/search.json": {
+      "checksum": "c8dcef42b5d8483c368d7c9a4c3dbb31"
+    },
+    "_site/site_libs/bootstrap/bootstrap-a0f9fd0d421825b736dc1bbcbcba2219.min.css": {
+      "checksum": "a0f9fd0d421825b736dc1bbcbcba2219"
+    },
+    "_site/site_libs/bootstrap/bootstrap-icons.css": {
+      "checksum": "886da841d7421705f715f600c5ff11bb"
+    },
+    "_site/site_libs/bootstrap/bootstrap-icons.woff": {
+      "checksum": "efe54401ef52214fd3b701e23ff88c5f"
+    },
+    "_site/site_libs/bootstrap/bootstrap.min.js": {
+      "checksum": "e2b09c06f0e714b6144a6788a28e3950"
+    },
+    "_site/site_libs/clipboard/clipboard.min.js": {
+      "checksum": "15f52a1ee547f2bdd46e56747332ca2d"
+    },
+    "_site/site_libs/quarto-html/anchor.min.js": {
+      "checksum": "91bcf6cd1fd88fec3f109811e5fc3546"
+    },
+    "_site/site_libs/quarto-html/popper.min.js": {
+      "checksum": "3a4a291ccf3f1ea0f82b641542fd3827"
+    },
+    "_site/site_libs/quarto-html/quarto-syntax-highlighting-845c23b38eaddc0f92fda52bfe77a8c8.css": {
+      "checksum": "845c23b38eaddc0f92fda52bfe77a8c8"
+    },
+    "_site/site_libs/quarto-html/quarto.js": {
+      "checksum": "6f4245742deb3cc92337dbe2701ccfe1"
+    },
+    "_site/site_libs/quarto-html/tabsets/tabsets.js": {
+      "checksum": "e8d6a8862b33ccc461f8fd532e05b365"
+    },
+    "_site/site_libs/quarto-html/tippy.css": {
+      "checksum": "ebd6f8ce46a677e1a4f5f8a8317109a9"
+    },
+    "_site/site_libs/quarto-html/tippy.umd.min.js": {
+      "checksum": "d828775275749701b48bd9d958814111"
+    },
+    "_site/site_libs/quarto-listing/list.min.js": {
+      "checksum": "d9fe78988e4cf7a26ac9e06aca9ce679"
+    },
+    "_site/site_libs/quarto-listing/quarto-listing.js": {
+      "checksum": "919f171782f2658435097266e834d316"
+    },
+    "_site/site_libs/quarto-nav/headroom.min.js": {
+      "checksum": "ace0360e576db9b6e7df48ac68ddbbf4"
+    },
+    "_site/site_libs/quarto-nav/quarto-nav.js": {
+      "checksum": "12d334846b27bdb493298c08277bdf7f"
+    },
+    "_site/site_libs/quarto-search/autocomplete.umd.js": {
+      "checksum": "b514204f2ef1ca7a8e2ad4579d263504"
+    },
+    "_site/site_libs/quarto-search/fuse.min.js": {
+      "checksum": "de7d60e4a6881074275feca14b84a49d"
+    },
+    "_site/site_libs/quarto-search/quarto-search.js": {
+      "checksum": "9c992af743ca88c8c5f650cf312c4e61"
+    },
+    "_site/styles.css": {
+      "checksum": "e31c3cdea03dfab8a29456978017bd10"
+    },
+    "adhoc.R": {
+      "checksum": "ded4b74c62a76802ebef4e1435b9dc7e"
+    },
+    "index.qmd": {
+      "checksum": "91aca2194d372e3dfcd540b67d0b537c"
+    },
+    "random-files/Bulk-Add-Markdown-Files-to-Quarto-Book.md": {
+      "checksum": "0881d6cc0c99141dc426e5dbdbf6939b"
+    },
+    "random-files/Git-Push-Error-and-Solution.md": {
+      "checksum": "a661fab5a246a61d17564315d776bae3"
+    },
+    "random-files/Python-TOML与TML文件解析.md": {
+      "checksum": "e63330232df6962f32b0650d6897c870"
+    },
+    "random-files/RAG与Agent构建智能教学系统.md": {
+      "checksum": "0833413683f1ec348d4503738cb18781"
+    },
+    "random-files/TestThat与PyTest对比分析.md": {
+      "checksum": "ee66c882789132ad309164cdff8d650b"
+    },
+    "random-files/雅安茶厂公司及其代表产品介绍.md": {
+      "checksum": "768534767ecac2116eafb614e82cbd15"
+    },
+    "README.md": {
+      "checksum": "1a3b09ba1be3c59336657b33286faeae"
+    },
+    "renv.lock": {
+      "checksum": "1e0fa980549b2f7fb26c6ec1fc44c3a9"
+    },
+    "styles.css": {
+      "checksum": "e31c3cdea03dfab8a29456978017bd10"
+    }
+  },
+  "users": null
+}
