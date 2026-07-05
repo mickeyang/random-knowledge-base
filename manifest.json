@@ -6,13 +6,17 @@
     "appmode": "quarto-static",
     "primary_rmd": "index.qmd",
     "primary_html": null,
-    "content_category": "quarto",
+    "content_category": "site",
     "has_parameters": false
   },
   "environment": {
     "r": {
       "requires": "~=4.5.0"
     }
+  },
+  "quarto": {
+    "version": "1.9.36",
+    "engines": ["knitr", "markdown"]
   },
   "packages": null,
   "files": {
