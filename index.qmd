@@ -1,11 +1,5 @@
 ---
 title: "Random Randomness"
-image: cover.jpg
-# listing:
-#     contents: random-files/*.md
-#     # type: table
-#     # sort: "filename asc"
-#     # field-links: false
 ---
 
 This book is all about random randomness I found. Not organised in my brain yet. Dump everything here for the ease of reference.
