@@ -3,10 +3,11 @@ title: "Random Randomness"
 ---
 
 ```{r}
-latest_refresh_datetime <- Sys.time()
+#| echo: false
+latest_refresh_datetime <- format(Sys.time(), tz = "Pacific/Auckland")
 ```
 
-Latest refresh at `r latest_refresh_datetime`.
+Latest refresh at `r latest_refresh_datetime` NZST.
 
 This book is all about random randomness I found. Not organised in my brain yet. Dump everything here for the ease of reference.
 
