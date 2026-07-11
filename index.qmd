@@ -2,6 +2,12 @@
 title: "Random Randomness"
 ---
 
+```{r}
+latest_refresh_datetime <- Sys.time()
+```
+
+Latest refresh at `r latest_refresh_datetime`.
+
 This book is all about random randomness I found. Not organised in my brain yet. Dump everything here for the ease of reference.
 
 ```{r}
