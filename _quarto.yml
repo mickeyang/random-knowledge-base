@@ -9,7 +9,7 @@ website:
       - href: ai.qmd
         text: AI
 
-      - href: coding.qmd
+      - href: health.qmd
         text: CODING
 
       - href: health.qmd
