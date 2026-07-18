@@ -11,34 +11,6 @@ Latest refresh at `r latest_refresh_datetime` NZST.
 
 > This book is all about random randomness I found. Not organised in my brain yet. Dump everything here for the ease of reference.
 
-# HAPPY CODING
-
-```{r}
-#| echo: false
-#| results: asis
-
-files <- sort(list.files("random-files/coding-related/", pattern = "\\.md$", full.names = TRUE))
-for (f in files) {
-  name <- basename(f)
-  display <- sub("\\.md$", "", name)
-  cat(sprintf("- [%s](%s)\n", display, f))
-}
-```
-
-# LOOK AFTER HEALTH
-
-```{r}
-#| echo: false
-#| results: asis
-
-files <- sort(list.files("random-files/health-related/", pattern = "\\.md$", full.names = TRUE))
-for (f in files) {
-  name <- basename(f)
-  display <- sub("\\.md$", "", name)
-  cat(sprintf("- [%s](%s)\n", display, f))
-}
-```
-
 # ALL OTHER STUFF
 
 ```{r}
@@ -52,19 +24,3 @@ for (f in files) {
   cat(sprintf("- [%s](%s)\n", display, f))
 }
 ```
-
-# ALREADY READ
-
-```{r}
-#| echo: false
-#| results: asis
-#| eval: false
-
-files <- sort(list.files("random-files/already-read/", pattern = "\\.md$", full.names = TRUE))
-for (f in files) {
-  name <- basename(f)
-  display <- sub("\\.md$", "", name)
-  cat(sprintf("- [%s](%s)\n", display, f))
-}
-```
-

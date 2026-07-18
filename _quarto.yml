@@ -6,11 +6,17 @@ website:
   image: "cover.jpg"
   navbar:
     left:
-      - href: index.qmd
-        text: Main
       - href: ai.qmd
         text: AI
 
+      - href: coding.qmd
+        text: CODING
+
+      - href: health.qmd
+        text: HEALTH
+
+      - href: index.qmd
+        text: OTHER
 format:
   html:
     theme:

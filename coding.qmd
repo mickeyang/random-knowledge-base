@@ -1,0 +1,19 @@
+---
+title: "Coding"
+---
+
+# HAPPY CODING
+
+```{r}
+#| echo: false
+#| results: asis
+
+files <- sort(list.files("random-files/coding-related/", pattern = "\\.md$", full.names = TRUE))
+for (f in files) {
+  name <- basename(f)
+  display <- sub("\\.md$", "", name)
+  cat(sprintf("- [%s](%s)\n", display, f))
+}
+```
+
+
