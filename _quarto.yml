@@ -8,6 +8,8 @@ website:
     left:
       - href: index.qmd
         text: Main
+      - href: ai.qmd
+        text: AI
 
 format:
   html:

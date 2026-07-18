@@ -1,0 +1,18 @@
+---
+title: "Leverage AI"
+---
+
+# AI WORLD
+
+```{r}
+#| echo: false
+#| results: asis
+
+files <- sort(list.files("random-files/ai-related/", pattern = "\\.md$", full.names = TRUE))
+for (f in files) {
+  name <- basename(f)
+  display <- sub("\\.md$", "", name)
+  cat(sprintf("- [%s](%s)\n", display, f))
+}
+```
+
