@@ -1,8 +1,6 @@
 ---
-title: "Leverage AI"
+title: "AI WORLD"
 ---
-
-# AI WORLD
 
 ```{r}
 #| echo: false
