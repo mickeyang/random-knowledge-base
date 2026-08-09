@@ -18,7 +18,7 @@ website:
       - href: index.qmd
         text: OTHER
 
-      - href: gas+js.qmd
+      - href: gas-js.qmd
         text: GAS+JS
 format:
   html:
