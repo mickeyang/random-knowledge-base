@@ -6,7 +6,9 @@ title: "AI WORLD"
 #| echo: false
 #| results: asis
 
-files <- sort(list.files("random-files/ai-related/", pattern = "\\.md$", full.names = TRUE))
+md_files <- list.files("random-files/ai-related/", pattern = "\\.md$", full.names = TRUE)
+info <- file.info(md_files)
+files <- rownames(info)[order(info$ctime, decreasing = TRUE)]
 for (f in files) {
   name <- basename(f)
   display <- sub("\\.md$", "", name)
