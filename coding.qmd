@@ -8,7 +8,7 @@ title: "Coding"
 #| echo: false
 #| results: asis
 
-files <- sort(list.files("random-files/coding-related/", pattern = "\\.md$", full.names = TRUE))
+files <- sort(list.files("random-files/coding-related/", pattern = "\\.md$", full.names = TRUE), decreasing = TRUE)
 for (f in files) {
   name <- basename(f)
   display <- sub("\\.md$", "", name)
